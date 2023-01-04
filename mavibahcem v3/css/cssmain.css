@@ -1,0 +1,89 @@
+body{
+        
+    margin:0;
+    padding:0;
+    font-family:'montserrat';
+    background:#e3e9f7;
+}
+.havadrm{
+    
+    
+    margin: 280px 0px 0px; ;
+}
+.logo{
+    padding:20px;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:260px;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:#220070;
+}
+
+nav ul li{
+    list-style:none;
+}
+
+
+nav ul li a{
+    display:block;
+    font-family:'montserrat';
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:17px;
+    color:#fff;
+    position:relative;
+    padding:15px 0px 15px 25px;
+    transition:all 0.5s;
+}
+
+nav ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    right:1;
+    height:100%;
+    background:#e3e9f7;
+    border-radius:40px 0 40px;
+    z-index:-1;
+    transition:all 1s;
+}
+
+nav ul li a:hover{
+    color:#2b2626;
+}
+
+nav ul li a:hover:before{
+    width:95%;
+}
+
+
+.wrapper{
+    margin-left:260px;
+}
+
+.section{
+    display:grid;
+    place-items:center;
+    min-height:100vh;
+    text-align:center;
+}
+
+.box-area h2{
+    text-transform:uppercase;
+    font-size:30px;
+}
+
+.footer { background:#222222;width:100%; height:269px;float:left;color:white; font-family:arial;}
+		.footer #kutu b {font-size:14px;}
+		* {margin:0px;padding:0px;}
+		.footer_container{width:768px; height:175px; margin:30px auto;}
+		ul {list-style-type:none;margin:17px 0;padding:0px;}
+		#kutu {width:auto; height:125px; float:left;}
+		ul li {float:left;font-family:tahoma; font-size:12px; margin-bottom:8px; clear:left; color:#949798; }
+		#kutu:last-child li {float:left;clear:none;margin-right:10px;}
